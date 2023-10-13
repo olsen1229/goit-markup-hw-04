@@ -170,6 +170,12 @@ header .web {
    
 }
 
+.about-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--CLOUD); 
+}
+
 .techniques h2 {
     color: var(--NAVY-BLUE);
     font-size: 20px;
@@ -204,6 +210,35 @@ header .web {
     background: var(--CLOUD);
 }
 
+.team-socials {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+
+}
+.team-socials-icon {
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.team-socials-icon svg {
+    fill: white;
+    
+}
+
+.team-caption {
+    background-color: #ffffff;
+}
+ 
+
 
 .team h2 {
     color: var(--NAVY-BLUE);
@@ -215,7 +250,16 @@ header .web {
     text-transform: capitalize;  
 
 }
+.customers {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 
+}
 .team-members h3 {
     color: var(--SLATE);
     font-size: 20px;
