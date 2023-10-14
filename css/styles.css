@@ -4,6 +4,7 @@
     --SLATE: #434455;
     --CLOUD: #f4f4fd;
     --ocean:#4f42b5;
+    --light slate: #8e8f99;
 
 
 
@@ -26,6 +27,7 @@ body {
 
 section.title {
     background-color: #2E2F42;
+   
 }
 
 h1 {
@@ -87,6 +89,12 @@ header .web {
 
 
     
+}
+
+.title banner {
+    background: url("./images1/people-office-1.jpg");
+    height: 600px;
+    background-size: cover;
 }
 
 .title button {
@@ -250,16 +258,8 @@ header .web {
     text-transform: capitalize;  
 
 }
-.customers {
-    color: var(--NAVY-BLUE);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
 
-}
+
 .team-members h3 {
     color: var(--SLATE);
     font-size: 20px;
@@ -278,8 +278,87 @@ header .web {
     letter-spacing: 0.32px;
     text-align: center;
 
+}
+
+
+.customers h2 {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
 
 }
+.customer-icon {
+    border: 1px solid #8e8f99;
+    padding: 16px 32px;
+
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: var(--IRIS);
+
+}    
+
+.customer-icon:hover svg,
+.customer-icon:focus svg {
+    fill: var(--IRIS);
+}
+.customer-icon svg {
+    fill: #8e8f99;
+}
+
+footer {
+    background-color: var(--NAVY-BLUE) ;
+    
+}
+.social-media {
+    color:#ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .32px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+        
+}
+
+.socials-icon {
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.footer-socials-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 16px;
+
+     
+}
+
+.footer-socials-icon svg {
+    fill: white;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
 .text {
     color: var(--CLOUD);
     font-size: 16px;
@@ -287,11 +366,6 @@ header .web {
     line-height: 24px;
     letter-spacing: 0.32px;
 
-}
-
-footer {
-    background-color: var(--NAVY-BLUE) ;
-    
 }
 
 
