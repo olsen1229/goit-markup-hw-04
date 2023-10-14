@@ -307,8 +307,13 @@ header .web {
 }
 
 footer {
-    background-color: var(--NAVY-BLUE) ;
+    background-color: var(--NAVY-BLUE);
+  
     
+}
+
+.footer-socials {
+    margin-left: 100px;
 }
 .social-media {
     color:#ffffff;
@@ -318,8 +323,9 @@ footer {
     line-height: 24px;
     letter-spacing: .32px;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+   
         
 }
 
