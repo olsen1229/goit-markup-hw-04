@@ -72,32 +72,37 @@ header .web {
     
 }
 
-.title {
-    color:#ffffff;
-    background-color: #4D5AE5;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-size: 16px
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px; 
-    text-align: center;
-    padding: 16px 32px;
-
-
-    
-}
-
-.title banner {
-    background: url("./images1/people-office-1.jpg");
+.title-banner {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images1/people-office-1.jpg');
     height: 600px;
+    text-align: center;
     background-size: cover;
 }
 
-.title button {
-    text-align: center;
-    margin-bottom: 188px;
+.title {
+    position: relative;
+    color: var(--CLOUD);
+}
+   
+
+.button {
+    font-size: 16px;
+    border-style: none;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--CLOUD);
+    letter-spacing: 0.64px;
+    background-color: var(--IRIS);
+    border-radius: 4px;
+    padding: 16px 32px;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: var(--ocean);
+    
 }
 
 .title button:hover {
@@ -312,10 +317,34 @@ footer {
     
 }
 
-.footer-socials {
-    margin-left: 100px;
+.footer-section {
+    display: flex;
+    padding: 100px;
+    gap: 120px
 }
+
+.studio-footer {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800px;
+    color: var(--CLOUD);
+    letter-spacing: 0.54px;
+}
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--CLOUD);
+    letter-spacing: 0.32px;
+}
+
+.footer-socials-icon {
+    display: flex;
+    gap: 16px;
+}
+
 .social-media {
+    margin-top: 0;
     color:#ffffff;
     font-family: Roboto;
     font-size: 16px;
@@ -325,8 +354,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-   
-        
+       
 }
 
 .socials-icon {
@@ -337,8 +365,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+   
 }
 
 .footer-socials-icon {
@@ -348,6 +375,7 @@ footer {
     justify-content: center;
     gap: 16px;
     padding-top: 16px;
+    padding-bottom: 132px;
 
      
 }
@@ -359,9 +387,7 @@ footer {
 .footer {
     display: flex;
     align-items: center;
-
-
-    
+   
 }
 
 .text {
