@@ -173,7 +173,6 @@ header .web {
     gap: 24px;
     justify-content: center;
    
-    
 }
 
 .section {
@@ -202,10 +201,10 @@ header .web {
     font-weight: 400px;
     line-height: 24px;
     letter-spacing: 0.32px;
-    
+  
 
 }
-
+/* WHAT WE DO SECTION */
 .what-we-do h2 {
     font-size: 36px;
     font-weight: 700;
@@ -216,6 +215,7 @@ header .web {
     color: var(--NAVY-BLUE);
 
 }
+/* OUR TEAM SECTION*/
 
 .bg-cloud {
     background: var(--CLOUD);
@@ -280,8 +280,9 @@ header .web {
     text-align: center;
 
 }
+/*END OF OUR TEAM SECITON*/
 
-
+/* CUSTOMER SECTION */
 .customers h2 {
     color: var(--NAVY-BLUE);
     text-align: center;
@@ -311,16 +312,25 @@ header .web {
     fill: #8e8f99;
 }
 
+/*END OF CUSTOMER SECTION*/
+
+/* FOOTER STYLING*/
+
 footer {
     background-color: var(--NAVY-BLUE);
+    display: flex;
+    padding: 120px 0;
+    padding-left: 156px;
+    height: 312px;
   
     
 }
 
-.footer-section {
+.footer-container {
     display: flex;
-    padding: 100px;
-    gap: 120px
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .studio-footer {
@@ -337,14 +347,7 @@ footer {
     color: var(--CLOUD);
     letter-spacing: 0.32px;
 }
-
-.footer-socials-icon {
-    display: flex;
-    gap: 16px;
-}
-
 .social-media {
-    margin-top: 0;
     color:#ffffff;
     font-family: Roboto;
     font-size: 16px;
@@ -369,27 +372,25 @@ footer {
 }
 
 .footer-socials-icon {
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: inline-block;
     justify-content: center;
-    gap: 16px;
-    padding-top: 16px;
-    padding-bottom: 132px;
-
-     
+    align-items: center;
+    padding-bottom: 100px;
+    
 }
 
 .footer-socials-icon svg {
     fill: white;
 
 }
-.footer {
-    display: flex;
-    align-items: center;
-   
-}
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    padding-left: 40px;
+}
 .text {
     color: var(--CLOUD);
     font-size: 16px;
@@ -399,11 +400,7 @@ footer {
 
 }
 
-
-.studio-footer {
-    color: var(--CLOUD);
-
-}
+/* END OF FOOTER STYLING*/
 
 
 
