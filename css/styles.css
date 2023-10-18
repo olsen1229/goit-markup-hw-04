@@ -5,16 +5,12 @@
     --CLOUD: #f4f4fd;
     --ocean:#4f42b5;
     --light slate: #8e8f99;
-
-
-
 }
 ul {      
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
-
+  
 }
 section.contact {
     text-decoration: none;
@@ -56,7 +52,6 @@ h1 {
 .header {
     align-items: center;
     justify-content:space-between;
-    padding-bottom: 24px;
     padding-top: 24px;
     margin: 0 auto;
         
@@ -313,6 +308,87 @@ header .web {
 }
 
 /*END OF CUSTOMER SECTION*/
+
+
+/* PORTFOLIO STYLING*/
+
+
+.button-link {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 96px;
+    border-radius: 4px;
+    border-style: none;
+    
+
+
+}
+.first-button {
+    color: #ffffff;
+    font-family: Roboto;
+    background: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+        0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border-style: none;
+    border-radius: 4px;
+    width: 69px;
+    height: 48px; 
+    
+    
+  
+}
+
+.button-link txt {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    padding: 12px 24px;
+    background: var(--CLOUD);
+
+
+        
+
+}
+
+.button-row {
+    color: var(--IRIS);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px
+    border: 1px solid #E7E9FC;
+}
+.project-f-list {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+
+}
+.pro-list {
+    width: 30%;
+     
+
+}
+
+.app {
+    width: 100%;
+    
+
+}
+
+
+
+
 
 /* FOOTER STYLING*/
 
